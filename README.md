@@ -9,7 +9,7 @@ val intent = Intent(this, MediaPickerActivity::class.java)
 ```
 
 ## On Activity Result
-```
+````kotlin 
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQ_CODE) {
