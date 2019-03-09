@@ -2,9 +2,8 @@
 Media picker with image and video together.
 
 Gradle:
-```
-implementation project (':meadiapickerlib')
-```
+[![](https://jitpack.io/v/android76solulab/ImageVideoPicker.svg)](https://jitpack.io/#android76solulab/ImageVideoPicker)
+
 
 ## Open Activity
 ```kotlin
