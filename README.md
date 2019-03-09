@@ -2,14 +2,17 @@
 Media picker with image and video together.
 
 ## Open Activity
-```                
+```kotlin
+private val PER_CODE = 5001
+private val REQ_CODE = 123
+                
 val intent = Intent(this, MediaPickerActivity::class.java)
                 intent.putExtra("limit",10)
                 startActivityForResult(intent, REQ_CODE)
 ```
 
 ## On Activity Result
-````kotlin 
+```kotlin
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQ_CODE) {
@@ -28,5 +31,5 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 }
 ```
 
-           
+
                 
